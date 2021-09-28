@@ -8,7 +8,6 @@ function ImageForm() {
                     <button className="cancel-btn">Cancel</button>
                     <button className="add-image-btn">Add Image</button>
                 </div>
-                b
             </div>
         </>
     );
