@@ -1,5 +1,5 @@
 import ImageCard from './ImageCard/ImageCard.jsx';
-import ImageForm from './ImageForm/ImageForm.jsx'
+import ImageForm from './ImageForm/ImageForm.jsx';
 
 function App() {
   return (
