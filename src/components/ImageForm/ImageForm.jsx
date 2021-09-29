@@ -19,6 +19,7 @@ function ImageForm(props) {
                             id="image-url"
                             type="text"
                             name="imgURL"
+                            placeholder="Image URL"
                             value={imgURL}
                             onChange={(e) => setImgURL(e.target.value)}
                         />
@@ -27,6 +28,7 @@ function ImageForm(props) {
                             id="img-caption"
                             type="text"
                             name="imgCaption"
+                            placeholder="Image Caption"
                             value={imgCaption}
                             onChange={(e) => setImgCaption(e.target.value)}
                         />

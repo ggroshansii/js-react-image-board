@@ -1,13 +1,14 @@
 import "./ImageCard.css";
 
-function ImageCard() {
+function ImageCard(props) {
     return (
         <>
             <div className="image-card">
                 <div className="image-partition">
-                    <img src="https://images.unsplash.com/photo-1549880338-65ddcdfd017b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80"></img>
+                    <img src={props.imgURL} alt="" />
+                    
                 </div>
-                <p>Mountains</p>
+                <p>{props.imgCaption}</p>
             </div>
         </>
     );

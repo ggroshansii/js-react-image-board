@@ -4,7 +4,7 @@ function ImageList(props) {
 
     return (
             props.posts.map(post => {
-                return <ImageCard imgURL={post[0]} />
+                return <ImageCard key={post.id} imgURL={post.imgURL} imgCaption={post.imgCaption} />
             })
     )
 }

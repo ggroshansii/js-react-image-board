@@ -8,7 +8,7 @@ import Header from '../Header/Header.jsx';
 
 function ImageBoard() {
 
-const [posts, setPosts] = useState(['something', 'e']);
+const [posts, setPosts] = useState([]);
 const [count, setCounter] = useState(1)
 
 // Create function that is going to pass down 'a method' to ImageForm, which will grab the value when submit is clicked 
