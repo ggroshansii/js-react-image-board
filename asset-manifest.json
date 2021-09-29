@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/js-react-image-board/static/css/main.eadccf43.chunk.css",
+    "main.js": "/js-react-image-board/static/js/main.071c028d.chunk.js",
+    "main.js.map": "/js-react-image-board/static/js/main.071c028d.chunk.js.map",
+    "runtime-main.js": "/js-react-image-board/static/js/runtime-main.f0103192.js",
+    "runtime-main.js.map": "/js-react-image-board/static/js/runtime-main.f0103192.js.map",
+    "static/js/2.ef1c4b01.chunk.js": "/js-react-image-board/static/js/2.ef1c4b01.chunk.js",
+    "static/js/2.ef1c4b01.chunk.js.map": "/js-react-image-board/static/js/2.ef1c4b01.chunk.js.map",
+    "index.html": "/js-react-image-board/index.html",
+    "static/css/main.eadccf43.chunk.css.map": "/js-react-image-board/static/css/main.eadccf43.chunk.css.map",
+    "static/js/2.ef1c4b01.chunk.js.LICENSE.txt": "/js-react-image-board/static/js/2.ef1c4b01.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f0103192.js",
+    "static/js/2.ef1c4b01.chunk.js",
+    "static/css/main.eadccf43.chunk.css",
+    "static/js/main.071c028d.chunk.js"
+  ]
+}
