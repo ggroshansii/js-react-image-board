@@ -1,6 +1,6 @@
 
 .image-card {
-    border: 1px solid gray;
+    border: 2px solid gray;
     width: 80%;
     margin-bottom: 2.5rem;
     margin: 2rem auto;
@@ -16,7 +16,6 @@
 .image-partition {
     height: 300px;
     width: 100%;
-    border: 2px solid red;
     overflow: hidden;
 }
 
