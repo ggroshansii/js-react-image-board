@@ -32,7 +32,6 @@ function ImageForm(props) {
                             value={imgCaption}
                             onChange={(e) => setImgCaption(e.target.value)}
                         />
-                        <button type="cancel" className="cancel-btn">Cancel</button>
                         <button type="submit" className="add-image-btn" onClick={handleSubmit}>Add Image</button>
                     </form>
                 </div>
