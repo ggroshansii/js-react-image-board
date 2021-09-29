@@ -15,14 +15,11 @@ const [count, setCounter] = useState(1)
 
 // ImageBoard is going to have that data from ImageForm now, use that data to pass it down to ImageList, then to ImageCard
 
-
-
 function addImageCard(imgURL, imgCaption) {
   const newImageCard = {id: count, imgURL, imgCaption}
   setPosts([...posts, newImageCard]);
   setCounter(prevCount => prevCount + 1);
 }
-
 
   return (
     <div className="image-board">
